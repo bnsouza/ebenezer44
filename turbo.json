@@ -7,8 +7,10 @@
       "outputs": ["dist/**", ".next/**"]
     },
     "lint": {},
-    "prisma-generate": {},
-    "check-types": {},
+    "video": {
+      "cache": false,
+      "persistent": true
+    },
     "dev": {
       "cache": false,
       "persistent": true

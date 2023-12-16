@@ -6,7 +6,7 @@
     "*.css"
   ],
   "scripts": {
-    "start": "remotion studio",
+    "video": "remotion studio",
     "build": "remotion render Renovacao out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
