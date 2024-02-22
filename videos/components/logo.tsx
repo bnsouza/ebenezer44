@@ -30,7 +30,6 @@ export const Logo: React.FC = () => {
       <Img
         style={{ transform: `translateY(${wave1}px)`, height: "350px" }}
         src={staticFile("logoEbenezer.png")}
-        placeholder={undefined}
       />
     </div>
   );

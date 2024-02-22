@@ -2,7 +2,7 @@ import { useVideoConfig } from "remotion";
 import React from "react";
 import { Img } from "remotion";
 import { interpolate, staticFile, Easing, useCurrentFrame } from "remotion";
-import { Mouse } from "../../components/mouse";
+import { Mouse } from "../../../components/mouse";
 
 export const Renovacao09: React.FC = () => {
   const frame = useCurrentFrame();

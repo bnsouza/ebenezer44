@@ -1,6 +1,6 @@
 import { AbsoluteFill, Audio, Series, Sequence, staticFile } from "remotion";
-import { Logo } from "../components/logo";
-import { Title } from "../components/title";
+import { Logo } from "../../components/logo";
+import { Title } from "../../components/title";
 import { z } from "zod";
 
 export const AcessoPaxtuSchema = z.object({

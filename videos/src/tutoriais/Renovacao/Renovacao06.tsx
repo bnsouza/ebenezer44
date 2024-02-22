@@ -1,8 +1,8 @@
 import React from "react";
 import { Img, Sequence } from "remotion";
 import { interpolate, staticFile, Easing, useCurrentFrame } from "remotion";
-import { Mouse } from "../../components/mouse";
-import { Typing } from "../../components/typing";
+import { Mouse } from "../../../components/mouse";
+import { Typing } from "../../../components/typing";
 
 export const Renovacao06: React.FC = () => {
   const frame = useCurrentFrame();

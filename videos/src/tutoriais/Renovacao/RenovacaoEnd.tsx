@@ -1,8 +1,8 @@
 import { interpolate } from "remotion";
 import { useVideoConfig } from "remotion";
 import { useCurrentFrame } from "remotion";
-import { Logo } from "../../components/logo";
-import { Title } from "../../components/title";
+import { Logo } from "../../../components/logo";
+import { Title } from "../../../components/title";
 
 export const RenovacaoEnd: React.FC = () => {
   const frame = useCurrentFrame();

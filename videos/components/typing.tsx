@@ -10,6 +10,7 @@ export const TypingSchema = z.object({
   opacity: z.number(),
   fontSize: z.number(),
   textColor: zColor(),
+  position: z.enum(["absolute", "relative"]).optional(),
   digitTime: z.number().optional(),
 });
 
@@ -20,6 +21,7 @@ export const Typing: React.FC<z.infer<typeof TypingSchema>> = ({
   opacity: opct,
   fontSize: size,
   textColor: color,
+  position = "absolute",
   digitTime: velocidadeDigitacao = 5,
 }) => {
   const frame = useCurrentFrame();
@@ -32,7 +34,7 @@ export const Typing: React.FC<z.infer<typeof TypingSchema>> = ({
   return (
     <div
       style={{
-        position: "absolute",
+        position,
         left: x,
         top: y,
         fontSize: `${size}px`,

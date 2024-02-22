@@ -8,8 +8,8 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { Mouse } from "../../components/mouse";
-import { Typing } from "../../components/typing";
+import { Mouse } from "../../../components/mouse";
+import { Typing } from "../../../components/typing";
 
 export const Renovacao01: React.FC = () => {
   const frame = useCurrentFrame();
