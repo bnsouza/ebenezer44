@@ -27,7 +27,7 @@ export const Renovacao02: React.FC = () => {
     <>
       <Img
         src={staticFile("prints/Renovacao/tela02.png")}
-        placeholder={undefined}
+
       />
       <Mouse posX={posX} posY={posY} opacity={1} scale={scale} />
     </>

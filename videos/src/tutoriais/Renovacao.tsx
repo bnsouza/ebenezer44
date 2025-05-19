@@ -29,7 +29,7 @@ export const Renovacao: React.FC = () => {
 
       <Series>
         <Series.Sequence
-          durationInFrames={374}
+          durationInFrames={400}
           style={{ backgroundColor: "#01923F" }}
           className="p-10"
         >
@@ -50,7 +50,7 @@ export const Renovacao: React.FC = () => {
           <Renovacao02 />
         </Series.Sequence>
         <Series.Sequence
-          durationInFrames={300}
+          durationInFrames={350}
           style={{ backgroundColor: "#01923F" }}
           className="items-center justify-center"
         >
@@ -92,14 +92,14 @@ export const Renovacao: React.FC = () => {
           <Renovacao08 />
         </Series.Sequence>
         <Series.Sequence
-          durationInFrames={120}
+          durationInFrames={220}
           style={{ backgroundColor: "#01923F" }}
           className="items-center justify-center"
         >
           <Renovacao09 />
         </Series.Sequence>
         <Series.Sequence
-          durationInFrames={334}
+          durationInFrames={634}
           style={{ backgroundColor: "#000000" }}
         >
           <RenovacaoEnd />
@@ -109,73 +109,55 @@ export const Renovacao: React.FC = () => {
       {/* Seqüências de locução ------------------------------------- */}
 
       <Sequence from={16} durationInFrames={58}>
-        <Audio src={staticFile("narracao/Renovacao/01-titulo.mp3")} />
+        <Audio src={staticFile("narracao/Renovacao/Titulo.mp3")} />
       </Sequence>
-      <Sequence from={110} durationInFrames={264}>
-        <Audio src={staticFile("narracao/Renovacao/02-Intro.mp3")} />
+      <Sequence from={110} durationInFrames={189}>
+        <Audio src={staticFile("narracao/Renovacao/Ola.mp3")} />
       </Sequence>
-      <Sequence from={398} durationInFrames={205}>
-        <Audio src={staticFile("narracao/Renovacao/03-acesso.mp3")} />
+      <Sequence from={190} durationInFrames={1993}>
+        <Audio src={staticFile("narracao/Renovacao/Locucao.mp3")} startFrom={71} />
       </Sequence>
-      <Sequence from={410} durationInFrames={24}>
+      <Sequence from={435} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={420} durationInFrames={72}>
+      <Sequence from={445} durationInFrames={72}>
         <Audio src={staticFile("sons/ES_KeyboardTyping.mp3")} />
       </Sequence>
-      <Sequence from={544} durationInFrames={24}>
+      <Sequence from={570} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={614} durationInFrames={154}>
-        <Audio src={staticFile("narracao/Renovacao/04-menu.mp3")} />
-      </Sequence>
-      <Sequence from={690} durationInFrames={24}>
+      <Sequence from={715} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={776} durationInFrames={240}>
-        <Audio src={staticFile("narracao/Renovacao/05-credencial.mp3")} />
-      </Sequence>
-      <Sequence from={986} durationInFrames={24}>
+      <Sequence from={1060} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={1022} durationInFrames={144}>
-        <Audio src={staticFile("narracao/Renovacao/06-vigencia.mp3")} />
-      </Sequence>
-      <Sequence from={1178} durationInFrames={192}>
-        <Audio src={staticFile("narracao/Renovacao/07-desconto.mp3")} />
-      </Sequence>
-      <Sequence from={1356} durationInFrames={24}>
+      <Sequence from={1431} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={1388} durationInFrames={216}>
-        <Audio src={staticFile("narracao/Renovacao/08-pagamento.mp3")} />
-      </Sequence>
-      <Sequence from={1468} durationInFrames={24}>
+      <Sequence from={1543} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={1530} durationInFrames={22}>
+      <Sequence from={1605} durationInFrames={22}>
         <Audio src={staticFile("sons/ES_KeyboardTyping.mp3")} />
       </Sequence>
-      <Sequence from={1610} durationInFrames={24}>
+      <Sequence from={1685} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={1634} durationInFrames={168}>
-        <Audio src={staticFile("narracao/Renovacao/09-sucesso.mp3")} />
-      </Sequence>
-      <Sequence from={1774} durationInFrames={24}>
+      <Sequence from={1850} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={1814} durationInFrames={216}>
-        <Audio src={staticFile("narracao/Renovacao/10-retentativa.mp3")} />
-      </Sequence>
-      <Sequence from={1894} durationInFrames={24}>
+      <Sequence from={1969} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={2014} durationInFrames={24}>
+      <Sequence from={2189} durationInFrames={24}>
         <Audio src={staticFile("sons/ES_MouseClick.mp3")} />
       </Sequence>
-      <Sequence from={2066} durationInFrames={264}>
-        <Audio src={staticFile("narracao/Renovacao/11-fim.mp3")} />
+      <Sequence from={2218} durationInFrames={266}>
+        <Audio src={staticFile("narracao/Renovacao/Locucao.mp3")} startFrom={2056} />
+      </Sequence>
+      <Sequence from={2496} durationInFrames={30}>
+        <Audio src={staticFile("narracao/Renovacao/SempreAlerta.mp3")} />
       </Sequence>
 
       {/* Legendas -------------------------------------------------- */}
@@ -190,7 +172,7 @@ export const Renovacao: React.FC = () => {
           interpolate(
             f,
             [0, durationInFrames - 48, durationInFrames],
-            [0.15, 0.15, 0]
+            [0.05, 0.05, 0]
           )
         }
       />

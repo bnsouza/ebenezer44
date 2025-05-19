@@ -18,7 +18,7 @@ export const Mouse: React.FC<z.infer<typeof MouseSchema>> = ({
   return (
     <Img
       src={staticFile("assets/mouse.png")}
-      placeholder={undefined}
+
       style={{
         position: "absolute",
         left: 0,

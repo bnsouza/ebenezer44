@@ -22,7 +22,7 @@ export const AcessoPaxtu: React.FC<z.infer<typeof AcessoPaxtuSchema>> = ({
           <Sequence from={16}>
             <Audio
               src={staticFile("narracao/1-titulo.mp3")}
-              placeholder={undefined}
+
             />
           </Sequence>
         </AbsoluteFill>

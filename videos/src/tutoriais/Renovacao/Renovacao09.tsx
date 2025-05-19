@@ -24,18 +24,18 @@ export const Renovacao09: React.FC = () => {
     }
   );
 
-  const posX = interpolate(frame, [0, 60], [140, 633], {
+  const posX = interpolate(frame, [0, 160], [140, 633], {
     easing: Easing.out(Easing.exp),
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
-  const posY = interpolate(frame, [0, 60], [142, 460], {
+  const posY = interpolate(frame, [0, 160], [142, 460], {
     easing: Easing.out(Easing.exp),
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
 
-  const scale = interpolate(frame, [92, 102, 112], [1, 0.8, 1], {
+  const scale = interpolate(frame, [192, 202, 212], [1, 0.8, 1], {
     easing: Easing.out(Easing.exp),
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
@@ -46,7 +46,7 @@ export const Renovacao09: React.FC = () => {
       <Img
         style={{ transform: `translateY(${entranceMovement}px)`, opacity }}
         src={staticFile("prints/Renovacao/tela08.png")}
-        placeholder={undefined}
+
       />
       <Mouse posX={posX} posY={posY} opacity={opacity} scale={scale} />
     </>

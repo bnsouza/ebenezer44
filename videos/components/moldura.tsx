@@ -5,7 +5,7 @@ import { staticFile } from "remotion";
 export const Moldura: React.FC = () => {
   return (
     <div>
-      <Img src={staticFile("components/moldura.png")} placeholder={undefined} />
+      <Img src={staticFile("components/moldura.png")}  />
     </div>
   );
 };

@@ -49,7 +49,7 @@ export const Renovacao01: React.FC = () => {
       <Img
         style={{ transform: `translateY(${entranceMovement}px)`, opacity }}
         src={staticFile("prints/Renovacao/tela01.png")}
-        placeholder={undefined}
+
       />
       <Mouse posX={posX} posY={posY} opacity={1} scale={scale} />
       <Sequence from={36}>
